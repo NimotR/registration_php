@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>SIGN UP</h1>
+    <hr>
+    <form method="POST" action="regForm.php" enctype="multipart/form-data">
+        <div class="label">
+            <div class="question">Username</div>
+            <div class="input"><input type="text" name="uname" required></div>
+        </div>
+        <div class="label">
+            <div class="question">Email Address</div>
+            <div class="input"><input type="email" name="email" required></div>
+        </div>
+        <div class="label">
+            <div class="question">Password</div>
+            <div class="input"><input type="password" name="pass" required></div>
+        </div>
+        <div class="label">
+            <input type="submit" name="submit">
+        </div>
+    </form>
+</body>
+</html>
